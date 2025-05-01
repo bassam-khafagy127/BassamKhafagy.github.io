@@ -268,15 +268,15 @@
 </head>
 <body class="bg-slate-900 text-slate-200 leading-relaxed">
   <!-- Hero Section -->
-  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-b from-slate-950 to-slate-900 px-4">
+  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-b from-slate-950 to-slate-900 px-4 py-16 sm:py-0">
     <div class="text-center max-w-4xl mx-auto">
-      <div class="relative mx-auto mb-8 h-48 w-48">
+      <div class="relative mx-auto mb-8 h-32 w-32 sm:h-48 sm:w-48">
         <img src="avatar.jpg" alt="Bassam Nasser" class="w-full h-full rounded-full border-4 border-[var(--accent)] object-cover shadow-xl animate-borderPulse" 
              onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Bassam+Nasser&background=0ea5e9&color=fff&size=200'"/>
       </div>
-      <h1 class="text-5xl font-bold mb-4 animate-fadeInUp">Hello, I'm <span class="text-[var(--accent)]">Bassam Nasser</span></h1>
-      <h2 class="text-2xl mb-6 text-slate-400 animate-fadeInUp">I'm an Android Developer</h2>
-      <p class="text-lg text-slate-400 mb-8 max-w-2xl mx-auto animate-fadeInUp">
+      <h1 class="text-3xl sm:text-5xl font-bold mb-4 animate-fadeInUp">Hello, I'm <span class="text-[var(--accent)]">Bassam Nasser</span></h1>
+      <h2 class="text-xl sm:text-2xl mb-6 text-slate-400 animate-fadeInUp">I'm an Android Developer</h2>
+      <p class="text-base sm:text-lg text-slate-400 mb-8 max-w-2xl mx-auto animate-fadeInUp px-4">
         Passionate Android Developer with 3+ years of experience in creating high-quality applications, focusing on clean architecture and modern UI development with Jetpack Compose.
       </p>
       <div class="flex justify-center space-x-4 mb-8">
@@ -290,12 +290,12 @@
           <i class="fas fa-link text-2xl"></i>
         </a>
       </div>
-      <div class="flex justify-center gap-4">
-        <a href="#contact" class="btn-hire-me px-8 py-3 bg-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/90 transition flex items-center">
+      <div class="flex flex-col sm:flex-row justify-center gap-4 px-4">
+        <a href="#contact" class="btn-hire-me px-6 sm:px-8 py-3 bg-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/90 transition flex items-center justify-center">
           <i class="fas fa-handshake mr-2"></i>
           Hire Me
         </a>
-        <a href="Bassam Nasser CV.pdf" download class="btn-download px-8 py-3 border-2 border-[var(--accent)] text-white rounded-full font-medium transition flex items-center">
+        <a href="Bassam Nasser CV.pdf" download class="btn-download px-6 sm:px-8 py-3 border-2 border-[var(--accent)] text-white rounded-full font-medium transition flex items-center justify-center">
           <span class="download-icon">
             <i class="fas fa-download mr-2"></i>
           </span>
@@ -306,14 +306,14 @@
   </section>
 
   <!-- Skills Section -->
-  <section id="skills" class="py-24 px-4 bg-slate-900">
+  <section id="skills" class="py-16 sm:py-24 px-4 bg-slate-900">
     <div class="container mx-auto max-w-6xl">
-      <h2 class="section-title">Skills</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">Skills</h2>
       
       <!-- Programming Languages & Markup -->
-      <div class="mb-16 section-hover bg-slate-800/30 rounded-2xl p-8">
-        <h3 class="text-2xl font-semibold mb-6 text-[var(--accent)]">Programming Languages & Markup</h3>
-        <div class="grid md:grid-cols-2 gap-8">
+      <div class="mb-12 sm:mb-16 section-hover bg-slate-800/30 rounded-2xl p-4 sm:p-8">
+        <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">Programming Languages & Markup</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           <div class="space-y-6">
             <div>
               <div class="skill-title">
@@ -405,9 +405,9 @@
       </div>
 
       <!-- Android Libraries & Frameworks -->
-      <div class="mb-16 section-hover bg-slate-800/30 rounded-2xl p-8">
-        <h3 class="text-2xl font-semibold mb-6 text-[var(--accent)]">Android Libraries & Frameworks</h3>
-        <div class="grid md:grid-cols-2 gap-8">
+      <div class="mb-12 sm:mb-16 section-hover bg-slate-800/30 rounded-2xl p-4 sm:p-8">
+        <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">Android Libraries & Frameworks</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           <div class="space-y-6">
             <div>
               <div class="skill-title">
@@ -470,9 +470,9 @@
       </div>
 
       <!-- DevOps & Tooling -->
-      <div class="mb-16 section-hover bg-slate-800/30 rounded-2xl p-8">
-        <h3 class="text-2xl font-semibold mb-6 text-[var(--accent)]">DevOps & Tooling</h3>
-        <div class="grid md:grid-cols-2 gap-8">
+      <div class="mb-12 sm:mb-16 section-hover bg-slate-800/30 rounded-2xl p-4 sm:p-8">
+        <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">DevOps & Tooling</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           <div class="space-y-6">
             <div>
               <div class="skill-title">
@@ -503,7 +503,7 @@
                 <div class="skill-progress" data-progress="85%"></div>
               </div>
             </div>
-        <div>
+            <div>
               <div class="skill-title">
                 <span>Agile & Project Management</span>
                 <span>80%</span>
@@ -517,9 +517,9 @@
       </div>
 
       <!-- Deployment & Store Operations -->
-      <div class="mb-16 section-hover bg-slate-800/30 rounded-2xl p-8">
-        <h3 class="text-2xl font-semibold mb-6 text-[var(--accent)]">Deployment & Store Operations</h3>
-        <div class="grid md:grid-cols-2 gap-8">
+      <div class="mb-12 sm:mb-16 section-hover bg-slate-800/30 rounded-2xl p-4 sm:p-8">
+        <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">Deployment & Store Operations</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           <div class="space-y-6">
             <div>
               <div class="skill-title">
@@ -532,7 +532,7 @@
             </div>
           </div>
           <div class="space-y-6">
-        <div>
+            <div>
               <div class="skill-title">
                 <span>Release Management & Monitoring</span>
                 <span>85%</span>
@@ -548,80 +548,200 @@
   </section>
 
   <!-- About Section -->
-  <section id="about" class="py-24 px-4">
+  <section id="about" class="py-16 sm:py-24 px-4">
     <div class="container mx-auto max-w-6xl">
-      <h2 class="section-title">About Me</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">Projects</h2>
       
-      <!-- Introduction -->
-      <div class="mb-16 section-hover bg-slate-800/30 rounded-2xl p-8">
-        <div class="max-w-4xl mx-auto text-center">
-          <p class="text-xl text-slate-300 leading-relaxed mb-12">
-            Hi! I'm Bassam, an Android Developer passionate about creating apps that solve real-world problems while delivering buttery-smooth user experiences.
-          </p>
+      <!-- Featured Project -->
+      <div class="mb-12 section-hover bg-slate-800/30 rounded-2xl p-6 sm:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-8">
+          <div class="order-1">
+            <div class="flex items-center gap-4 mb-6">
+              <img src="https://play-lh.googleusercontent.com/Rl6FnftNbK_uwPbc_TDJVyIHFdbtc4KUKFmIjkRObS8LKS8ze-s9qO_Bmbv901ccx78Z=s48-rw" 
+                   alt="TaskedIn Icon" 
+                   class="w-12 h-12 rounded-xl shadow-lg"
+                   onerror="this.style.display='none'"/>
+              <h3 class="text-2xl font-semibold text-[var(--accent)]">TaskedIn</h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Kotlin</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Jetpack Compose</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">MVVM</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Clean Architecture</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Arabic Support</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">HR Analytics</span>
+            </div>
+            <p class="text-slate-300 mb-6">
+              A unified digital workspace revolutionizing team productivity in the Middle East. TaskedIn centralizes:
+            </p>
+            <ul class="list-disc list-inside text-slate-300 mb-6 space-y-2">
+              <li>Task management and team collaboration</li>
+              <li>Chat, meetings, and file-sharing capabilities</li>
+              <li>HR and analytics tools</li>
+              <li>Arabic language support and localization</li>
+              <li>Customizable workflows for teams of all sizes</li>
+            </ul>
+            <p class="text-slate-300 mb-6">
+              Recognized for innovation with the UAE Award, TaskedIn streamlines business processes by replacing fragmented platforms like email and WhatsApp with a single, intuitive solution.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="https://play.google.com/store/search?q=taskedin&c=apps&hl=en" 
+                 target="_blank" 
+                 class="inline-flex items-center px-4 py-2 bg-[var(--accent)] text-white rounded-lg hover:bg-[var(--accent)]/90 transition">
+                <i class="fab fa-google-play mr-2"></i>
+                View on Play Store
+              </a>
+              <a href="https://taskedin.net/" 
+                 target="_blank" 
+                 class="inline-flex items-center px-4 py-2 border border-[var(--accent)] text-[var(--accent)] rounded-lg hover:bg-[var(--accent)]/10 transition">
+                <i class="fas fa-info-circle mr-2"></i>
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
         </div>
 
-        <!-- Current Project -->
-        <div class="bg-slate-800/50 rounded-2xl p-8 mb-12 section-hover">
-          <h3 class="text-2xl font-semibold mb-4 text-[var(--accent)]">Current Focus: TaskedIn</h3>
-          <p class="text-slate-300 leading-relaxed mb-6">
-            Currently, I'm channeling my expertise into TaskedIn — a unified digital workspace that boosts productivity by centralizing task management, team collaboration (via chat, meetings, file-sharing), and operational tools like HR and analytics, replacing fragmented platforms like email/WhatsApp. It drives digital transformation in the Middle East with Arabic support and customizable workflows, scaling for teams of all sizes. Recognized for innovation (e.g., UAE Award), it aims to streamline business processes globally where I leverage Kotlin, Jetpack Compose, and modern Android architectures to build intuitive, performance-driven features.
-          </p>
+      <div class="mb-12 section-hover bg-slate-800/30 rounded-2xl p-6 sm:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-8">
+          <div class="order-1">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 rounded-xl shadow-lg bg-white flex items-center justify-center p-1">
+                <svg width="44" height="44" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+                  <g transform="translate(18, 32) scale(1)">
+                    <path d="M1.102,28.095L5.612,28.095a3.972,3.972 0,0 1,2.766 0.9,3.236 3.236,0 0,1 1,2.55 3.624,3.624 0,0 1,-0.488 1.922,2.953 2.953,0 0,1 -1.378,1.172L9.296,38.145L6.68,38.145L5.087,34.995L3.643,34.995L3.643,38.145L1.102,38.145ZM5.171,32.858a2.014,2.014 0,0 0,1.172 -0.291A1.165,1.165 0,0 0,6.765 31.545a1.153,1.153 0,0 0,-0.412 -1.022A2.064,2.064 0,0 0,5.171 30.245L3.643,30.245v2.616ZM5.171,32.858" fill="#117e93"/>
+                    <path d="M14.118,28.095L16.612,28.095L20.624,38.145h-2.6L17.221,36.073L13.509,36.073L12.702,38.145L10.087,38.145ZM16.584,34.123L15.365,30.745 14.127,34.123ZM16.584,34.123" fill="#f65900" fill-opacity="0.85"/>
+                    <path d="M21.626,28.095L24.167,28.095v3.881L28.104,31.976L28.104,28.095h2.55L30.654,38.145L28.104,38.145v-4.05L24.167,34.095L24.167,38.145L21.626,38.145ZM21.626,28.095" fill="#117e93"/>
+                    <path d="M35.682,28.095L38.176,28.095L42.188,38.145h-2.6L38.785,36.073L35.073,36.073L34.266,38.145L31.651,38.145ZM38.148,34.123L36.929,30.745 35.691,34.123ZM38.148,34.123" fill="#117e93"/>
+                    <path d="M45.516,30.245L42.684,30.245L42.684,28.095L50.906,28.095L50.906,30.245L48.066,30.245v7.9L45.516,38.145ZM45.516,30.245" fill="#117e93"/>
+                    <path d="M56.195,38.361A4.511,4.511 0,0 1,52.773 37.151,4.484 4.484,0 0,1 51.62,33.936L51.62,28.095L54.167,28.095v5.869a2.045,2.045 0,0 0,0.534 1.528,2.07 2.07,0 0,0 1.491,0.516A2.012,2.012 0,0 0,57.667 35.492a2.045,2.045 0,0 0,0.534 -1.528L58.201,28.095h2.55v5.841A4.49,4.49 0,0 1,59.608 37.151,4.484 4.484,0 0,1 56.195,38.361ZM56.195,38.361" fill="#117e93"/>
+                    <path d="M61.967,28.095L64.508,28.095v4.172L67.977,28.095h3.019L66.927,32.989 71.267,38.145L68.248,38.145L64.508,33.701L64.508,38.145L61.967,38.145ZM61.967,28.095" fill="#117e93"/>
+                    <path d="M3.45,10.706v-0.647h0.525v-1.95L5.588,8.109q0.647,0 0.647,0.731v0.666h-0.75L5.485,8.984a0.208,0.208 0,0 0,-0.075 -0.188,0.78 0.78,0 0,0 -0.338,-0.047c-0.1,0 -0.225,0.007 -0.375,0.019v1.294L6.234,10.062v0.647ZM11,17.391L0,17.391v-7.359a2.859,2.859 0,0 1,0.759 -1.856,2.191 2.191,0 0,1 1.688,-0.909L2.447,15.184L7.388,15.184L7.388,0h2.438L9.826,15.184L11,15.184ZM11,17.391" fill="#117e93"/>
+                    <path d="M20.25,17.391L9.487,17.391v-2.2L20.25,15.191ZM20.25,17.391" fill="#117e93"/>
+                    <path d="M26.659,15.188v2.2L18.759,17.388v-2.2L23.1,15.188v-7.838L25.537,7.35v7.838ZM21.975,5.572L19.265,5.572v-2.25L21.975,3.322ZM25.775,5.572L23.059,5.572v-2.25L25.772,3.322ZM25.775,5.572" fill="#117e93"/>
+                    <path d="M35.921,17.391L25.158,17.391v-2.2L35.921,15.191ZM35.921,17.391" fill="#117e93"/>
+                    <path d="M45.193,17.391L34.43,17.391v-2.2L45.193,15.191ZM45.193,17.391" fill="#117e93"/>
+                    <path d="M54.465,17.391L43.702,17.391v-2.2L54.465,15.191ZM54.465,17.391" fill="#117e93"/>
+                    <path d="M52.973,17.391v-2.2L60.351,15.191a1.38,1.38 0,0 1,-0.619 -1.359l0.019,-2.55a1.7,1.7 0,0 0,-1.922 -1.941L57.004,9.341v1.238L54.689,10.579v-3.272L58.842,7.307q3.326,0 3.319,3.15l-0.019,3.375c0,0.914 0.417,1.366 1.256,1.359v2.2ZM52.973,17.391" fill="#117e93"/>
+                    <path d="M64.287,17.391L64.287,0.029L66.725,0.029v17.363ZM64.287,17.391" fill="#f65900" fill-opacity="0.85"/>
+                    <path d="M70.724,17.334a3.377,3.377 0,0 1,-0.5 1.8A2.359,2.359 0,0 1,68.792 20.259,5.742 5.742,0 0,1 67.424,20.384L66.364,20.384L66.364,18.59a2.585,2.585 0,0 0,1.566 -0.328,1.24 1.24,0 0,0 0.384,-0.994v-9.919L70.724,7.349ZM70.724,17.334" fill="#117e93"/>
+                    <path d="M0.206,25.824L71.312,25.824" stroke="#f65900" stroke-opacity="0.85" stroke-width="2.997" fill="none"/>
+                    <path d="M5.156,18h59v3h-59z" fill="#117e93"/>
+                  </g>
+                </svg>
+              </div>
+              <h3 class="text-2xl font-semibold text-[var(--accent)]">Rahtuk</h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Kotlin</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">MVVM</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Clean Architecture</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Excel Support</span>
+            </div>
+            <p class="text-slate-300 mb-6">
+              A comprehensive transportation and delivery application that connects drivers with customers, featuring:
+            </p>
+            <ul class="list-disc list-inside text-slate-300 mb-6 space-y-2">
+              <li>Real-time location tracking and route optimization</li>
+              <li>Secure payment gateway integration</li>
+              <li>Driver-customer chat system</li>
+              <li>Rating and review system</li>
+              <li>Multi-language support (Arabic/English)</li>
+              <li>Push notifications for order updates</li>
+            </ul>
+          </div>
+        </div>
         </div>
 
+      <div class="mb-12 section-hover bg-slate-800/30 rounded-2xl p-6 sm:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-8">
+          <div class="order-1">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 rounded-xl shadow-lg bg-white flex items-center justify-center">
+                <img src="logo_sna.png" 
+                     alt="Snake El Maarouf Icon" 
+                     class="w-8 h-8 object-contain"
+                     onerror="this.style.display='none'"/>
+              </div>
+              <h3 class="text-2xl font-semibold text-[var(--accent)]">Snake El Maarouf</h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Kotlin</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">MVVM</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Clean Architecture</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Firebase</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Excel Support</span>
+            </div>
+            <p class="text-slate-300 mb-6">
+              A comprehensive charity database application for El Maarouf Hospital, featuring:
+            </p>
+            <ul class="list-disc list-inside text-slate-300 mb-6 space-y-2">
+              <li>Efficient management of charitable services and donations</li>
+              <li>Patient records and assistance tracking</li>
+              <li>Service request processing and approval workflow</li>
+              <li>Detailed reporting and analytics</li>
+              <li>Excel data import/export capabilities</li>
+              <li>Multi-user access control system</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">About Me</h2>
         <!-- What I Deliver -->
-        <div class="grid md:grid-cols-2 gap-8 mb-12">
-          <div class="bg-slate-800/50 rounded-2xl p-8 section-hover">
-            <h3 class="text-2xl font-semibold mb-6 text-[var(--accent)]">What I Deliver</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
+          <div class="bg-slate-800/50 rounded-2xl p-4 sm:p-8 section-hover">
+            <h3 class="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-[var(--accent)]">What I Deliver</h3>
             <ul class="space-y-4">
               <li class="flex items-start">
-                <span class="text-green-400 mr-3">✅</span>
+                <span class="text-green-400 mr-3 mt-1">✅</span>
                 <div>
-                  <strong class="text-white">Full-Cycle Development:</strong>
-                  <p class="text-slate-300">Designed, coded, and shipped multiple Android apps from concept to Play Store, including TaskedIn.</p>
+                  <strong class="text-white block mb-1">Full-Cycle Development:</strong>
+                  <p class="text-sm sm:text-base text-slate-300">Designed, coded, and shipped multiple Android apps from concept to Play Store, including TaskedIn.</p>
                 </div>
               </li>
               <li class="flex items-start">
-                <span class="text-green-400 mr-3">✅</span>
+                <span class="text-green-400 mr-3 mt-1">✅</span>
                 <div>
-                  <strong class="text-white">Technical Mastery:</strong>
-                  <p class="text-slate-300">Proficient in MVVM, MVI, Clean Architecture, Coroutines, and Jetpack libraries. Passionate about writing maintainable code and squashing bugs before they reach users.</p>
+                  <strong class="text-white block mb-1">Technical Mastery:</strong>
+                  <p class="text-sm sm:text-base text-slate-300">Proficient in MVVM, MVI, Clean Architecture, Coroutines, and Jetpack libraries. Passionate about writing maintainable code and squashing bugs before they reach users.</p>
                 </div>
               </li>
               <li class="flex items-start">
-                <span class="text-green-400 mr-3">✅</span>
+                <span class="text-green-400 mr-3 mt-1">✅</span>
                 <div>
-                  <strong class="text-white">Collaboration & Impact:</strong>
-                  <p class="text-slate-300">Work closely with cross-functional teams to align technical execution with business goals. Pride myself on translating UX wireframes into pixel-perfect, responsive interfaces.</p>
+                  <strong class="text-white block mb-1">Collaboration & Impact:</strong>
+                  <p class="text-sm sm:text-base text-slate-300">Work closely with cross-functional teams to align technical execution with business goals. Pride myself on translating UX wireframes into pixel-perfect, responsive interfaces.</p>
                 </div>
               </li>
               <li class="flex items-start">
-                <span class="text-green-400 mr-3">✅</span>
+                <span class="text-green-400 mr-3 mt-1">✅</span>
                 <div>
-                  <strong class="text-white">Continuous Learner:</strong>
-                  <p class="text-slate-300">Always exploring cutting-edge tools like Jetpack Compose and KMP.</p>
+                  <strong class="text-white block mb-1">Continuous Learner:</strong>
+                  <p class="text-sm sm:text-base text-slate-300">Always exploring cutting-edge tools like Jetpack Compose and KMP.</p>
                 </div>
               </li>
             </ul>
           </div>
 
           <!-- Beyond the Screen -->
-          <div class="bg-slate-800/50 rounded-2xl p-8 section-hover">
-            <h3 class="text-2xl font-semibold mb-6 text-[var(--accent)]">Beyond the Screen</h3>
-            <p class="text-slate-300 leading-relaxed mb-6">
+          <div class="bg-slate-800/50 rounded-2xl p-4 sm:p-8 section-hover">
+            <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">Beyond the Screen</h3>
+            <p class="text-base sm:text-lg text-slate-300 leading-relaxed mb-6">
               When I'm not debugging or refining TaskedIn, you'll find me:
             </p>
             <ul class="space-y-4">
               <li class="flex items-center">
                 <span class="text-[var(--accent)] mr-3">🎬</span>
-                <p class="text-slate-300">Binge-watching anime series (currently obsessed with Demon Slayer ⚔️ & Solo Leveling)</p>
+                <p class="text-sm sm:text-base text-slate-300">Binge-watching anime series (currently obsessed with Demon Slayer ⚔️ & Solo Leveling)</p>
               </li>
               <li class="flex items-center">
                 <span class="text-[var(--accent)] mr-3">⚽</span>
-                <p class="text-slate-300">Playing football with friends</p>
+                <p class="text-sm sm:text-base text-slate-300">Playing football with friends</p>
               </li>
               <li class="flex items-center">
                 <span class="text-[var(--accent)] mr-3">🏃‍♂️</span>
-                <p class="text-slate-300">Training for my next 10K run</p>
+                <p class="text-sm sm:text-base text-slate-300">Training for my next 10K run</p>
               </li>
             </ul>
             <p class="text-slate-300 mt-6">
@@ -631,153 +751,152 @@
         </div>
 
         <!-- Personal Info -->
-        <div class="bg-slate-800/50 rounded-2xl p-8 section-hover">
-          <div class="grid md:grid-cols-2 gap-12">
+        <div class="bg-slate-800/50 rounded-2xl p-4 sm:p-8 section-hover">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-12">
             <!-- Personal Details -->
-            <div class="bg-slate-900/50 rounded-xl p-6">
-              <h3 class="text-xl font-semibold mb-6 text-[var(--accent)] flex items-center">
+            <div class="bg-slate-900/50 rounded-xl p-4 sm:p-6">
+              <h3 class="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 text-[var(--accent)] flex items-center">
                 <i class="fas fa-user-circle mr-3"></i>
                 Personal Details
               </h3>
-              <ul class="space-y-4">
+              <ul class="space-y-3 sm:space-y-4">
                 <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
                   <i class="fas fa-calendar-alt text-[var(--accent)] w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
                   <div class="ml-4">
-                    <p class="text-sm text-slate-400">Birthday</p>
-                    <p class="font-medium">12th July 2000</p>
+                    <p class="text-xs sm:text-sm text-slate-400">Birthday</p>
+                    <p class="text-sm sm:text-base font-medium">12th July 2000</p>
                   </div>
                 </li>
                 <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
                   <i class="fas fa-map-marker-alt text-[var(--accent)] w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
                   <div class="ml-4">
-                    <p class="text-sm text-slate-400">Location</p>
-                    <p class="font-medium">Giza, Egypt</p>
+                    <p class="text-xs sm:text-sm text-slate-400">Location</p>
+                    <p class="text-sm sm:text-base font-medium">Giza, Egypt</p>
                   </div>
                 </li>
                 <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
-                  <i class="fas fa-graduation-cap text-[var(--accent)] w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
+                <i class="fas fa-graduation-cap text-[var(--accent)] min-w-8 w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
                   <div class="ml-4">
-                    <p class="text-sm text-slate-400">Degree</p>
-                    <p class="font-medium">Bachelor of Management Information Systems (MIS)</p>
+                    <p class="text-xs sm:text-sm text-slate-400">Degree</p>
+                    <p class="text-sm sm:text-base font-medium">Bachelor of Management Information Systems (MIS)</p>
                   </div>
                 </li>
               </ul>
             </div>
 
             <!-- Contact & Social -->
-            <div class="bg-slate-900/50 rounded-xl p-6">
-              <h3 class="text-xl font-semibold mb-6 text-[var(--accent)] flex items-center">
+            <div class="bg-slate-900/50 rounded-xl p-4 sm:p-6">
+              <h3 class="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 text-[var(--accent)] flex items-center">
                 <i class="fas fa-address-card mr-3"></i>
                 Contact & Social
               </h3>
-              <ul class="space-y-4">
+              <ul class="space-y-3 sm:space-y-4">
                 <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
-                  <i class="fas fa-envelope text-[var(--accent)] w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
+                <i class="fas fa-envelope text-[var(--accent)] min-w-8 w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
                   <div class="ml-4">
-                    <p class="text-sm text-slate-400">Email</p>
-                    <p class="font-medium">bassamkhafgy127@gmail.com</p>
+                    <p class="text-xs sm:text-sm text-slate-400">Email</p>
+                    <p class="text-sm sm:text-base font-medium">bassamkhafgy127@gmail.com</p>
                   </div>
-      </li>
+                </li>
                 <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
                   <i class="fas fa-phone text-[var(--accent)] w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
                   <div class="ml-4">
-                    <p class="text-sm text-slate-400">Phone</p>
-                    <p class="font-medium">+20 109‑048‑2476</p>
+                    <p class="text-xs sm:text-sm text-slate-400">Phone</p>
+                    <p class="text-sm sm:text-base font-medium">+20 109‑048‑2476</p>
                   </div>
-      </li>
+                </li>
                 <li class="p-3 bg-slate-800/50 rounded-lg">
-                  <p class="text-sm text-slate-400 mb-2">Social Profiles</p>
-                  <div class="flex flex-wrap gap-3">
+                  <p class="text-xs sm:text-sm text-slate-400 mb-2">Social Profiles</p>
+                  <div class="flex flex-wrap gap-2 sm:gap-3">
                     <a href="https://www.linkedin.com/in/bassam-khafagy-77296a1bb/" 
                        target="_blank" 
-                       class="w-10 h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
-                      <i class="fab fa-linkedin text-[var(--accent)] text-xl group-hover:text-[var(--accent)]"></i>
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-linkedin text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
                     </a>
                     <a href="https://github.com/bassam-khafagy127" 
                        target="_blank" 
-                       class="w-10 h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
-                      <i class="fab fa-github text-[var(--accent)] text-xl group-hover:text-[var(--accent)]"></i>
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-github text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
                     </a>
                     <a href="https://bento.me/bassam-khafagy" 
                        target="_blank" 
-                       class="w-10 h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
-                      <i class="fas fa-link text-[var(--accent)] text-xl group-hover:text-[var(--accent)]"></i>
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fas fa-link text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
                     </a>
                     <a href="https://x.com/bassam_nasser12" 
                        target="_blank" 
-                       class="w-10 h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
-                      <i class="fab fa-x text-[var(--accent)] text-xl group-hover:text-[var(--accent)]"></i>
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-x text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
                     </a>
                     <a href="https://www.instagram.com/bassam_khafqgy1/" 
                        target="_blank" 
-                       class="w-10 h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
-                      <i class="fab fa-instagram text-[var(--accent)] text-xl group-hover:text-[var(--accent)]"></i>
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-instagram text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
                     </a>
                     <a href="https://t.me/Bassam710khafgy" 
                        target="_blank" 
-                       class="w-10 h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
-                      <i class="fab fa-telegram text-[var(--accent)] text-xl group-hover:text-[var(--accent)]"></i>
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-telegram text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
                     </a>
                   </div>
-      </li>
+                </li>
               </ul>
             </div>
           </div>
         </div>
 
         <!-- Education -->
-        <div class="bg-slate-800/50 rounded-2xl p-8 mt-12 section-hover">
-          <h3 class="text-2xl font-semibold mb-6 text-[var(--accent)] flex items-center gap-3">
-            <span class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-900 border-2 border-[var(--accent)]">
-              <i class="fas fa-graduation-cap text-[var(--accent)] text-xl"></i>
+        <div class="bg-slate-800/50 rounded-2xl p-4 sm:p-8 mt-8 sm:mt-12 section-hover">
+          <h3 class="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-[var(--accent)] flex items-center gap-3">
+            <span class="flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-slate-900 border-2 border-[var(--accent)]">
+              <i class="fas fa-graduation-cap text-[var(--accent)] text-lg sm:text-xl"></i>
             </span>
             Education
           </h3>
-          <div class="bg-slate-900/50 rounded-lg p-6">
-            <h4 class="text-xl font-semibold text-white mb-2">Bachelor of Management Information Systems (MIS)</h4>
+          <div class="bg-slate-900/50 rounded-lg p-4 sm:p-6">
+            <h4 class="text-lg sm:text-xl font-semibold text-white mb-2">Bachelor of Management Information Systems (MIS)</h4>
             <p class="text-[var(--accent)] mb-2">Delta Academy, Mansoura | Egypt</p>
-            <p class="text-slate-400">Class of 2022</p>
+            <p class="text-sm sm:text-base text-slate-400">Class of 2022</p>
             <div class="mt-4">
-              <p class="text-slate-300">Focused on bridging business and technology through comprehensive study of information systems, database management, and software development with emphasis on business applications.</p>
+              <p class="text-sm sm:text-base text-slate-300">Focused on bridging business and technology through comprehensive study of information systems, database management, and software development with emphasis on business applications.</p>
             </div>
           </div>
         </div>
 
         <!-- Call to Action -->
-        <div class="text-center mt-12">
-          <h3 class="text-2xl font-semibold mb-4 text-[var(--accent)]">Let's Build Something Amazing!</h3>
-          <p class="text-slate-300 max-w-3xl mx-auto mb-8">
+        <div class="text-center mt-8 sm:mt-12">
+          <h3 class="text-xl sm:text-2xl font-semibold mb-4 text-[var(--accent)]">Let's Build Something Amazing!</h3>
+          <p class="text-sm sm:text-base text-slate-300 max-w-3xl mx-auto mb-6 sm:mb-8 px-4">
             Open to Android developer roles where I can apply my technical depth and creativity to impactful projects. Let's connect to discuss how I can help your team innovate!
           </p>
-          <a href="#contact" class="inline-flex items-center px-8 py-3 bg-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/90 transition">
+          <a href="#contact" class="inline-flex items-center px-6 sm:px-8 py-3 bg-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/90 transition">
             <i class="fas fa-paper-plane mr-2"></i>
             Get In Touch
           </a>
-        </div>
       </div>
     </div>
   </section>
 
   <!-- Services Section -->
-  <section id="services" class="py-24 bg-slate-950 px-4">
+  <section id="services" class="py-16 sm:py-24 bg-slate-950 px-4">
     <div class="container mx-auto max-w-6xl">
-      <h2 class="section-title">Services</h2>
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="p-6 bg-slate-900 rounded-xl section-hover">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+        <div class="p-4 sm:p-6 bg-slate-900 rounded-xl section-hover">
           <div class="flex items-center mb-4">
-            <i class="fas fa-mobile-alt text-3xl text-[var(--accent)]"></i>
-            <h3 class="text-xl font-semibold ml-4">Android App Development</h3>
+            <i class="fas fa-mobile-alt text-2xl sm:text-3xl text-[var(--accent)]"></i>
+            <h3 class="text-lg sm:text-xl font-semibold ml-4">Android App Development</h3>
           </div>
-          <p class="text-slate-400">
+          <p class="text-sm sm:text-base text-slate-400">
             Specialized in creating modern, efficient, and user-friendly Android applications using the latest technologies and best practices. From concept to deployment, I ensure your app meets the highest standards of quality and performance.
           </p>
         </div>
-        <div class="p-6 bg-slate-900 rounded-xl section-hover">
+        <div class="p-4 sm:p-6 bg-slate-900 rounded-xl section-hover">
           <div class="flex items-center mb-4">
-            <i class="fas fa-laptop-code text-3xl text-[var(--accent)]"></i>
-            <h3 class="text-xl font-semibold ml-4">CMM (Compose Multiplatform)</h3>
+            <i class="fas fa-laptop-code text-2xl sm:text-3xl text-[var(--accent)]"></i>
+            <h3 class="text-lg sm:text-xl font-semibold ml-4">CMM (Compose Multiplatform)</h3>
           </div>
-          <p class="text-slate-400">
+          <p class="text-sm sm:text-base text-slate-400">
             Expertise in developing cross-platform applications using Compose Multiplatform, enabling shared UI code across Android, iOS, and Desktop. Leveraging the power of Kotlin and modern declarative UI patterns to create consistent, maintainable, and native-quality applications with a single codebase.
           </p>
         </div>
@@ -786,18 +905,1008 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-24 px-4">
+  <section id="contact" class="py-16 sm:py-24 px-4">
     <div class="container mx-auto max-w-2xl">
-      <h2 class="section-title">Get in Touch</h2>
-      <div class="text-center mb-12">
-        <p class="text-lg text-slate-400">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">Get in Touch</h2>
+      <div class="text-center mb-8 sm:mb-12">
+        <p class="text-base sm:text-lg text-slate-400">
           Whether you have a project in mind or just want to chat, I'm always open to discussing new opportunities.
         </p>
       </div>
-      <h3 class="text-2xl font-semibold mb-12 text-center">Contact Me</h3>
+      <h3 class="text-xl sm:text-2xl font-semibold mb-8 sm:mb-12 text-center">Contact Me</h3>
       
-      <form id="contactForm" class="space-y-6 bg-slate-800/50 rounded-2xl p-8 section-hover">
-        <div class="grid md:grid-cols-2 gap-6">
+      <form id="contactForm" class="space-y-6 bg-slate-800/50 rounded-2xl p-4 sm:p-8 section-hover">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+          <input 
+            type="text" 
+            id="name"
+            name="name"
+            placeholder="Name" 
+            class="w-full p-3 bg-slate-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--accent)] transition-all"
+            required 
+          />
+          <input 
+            type="email" 
+            id="email"
+            name="email"
+            placeholder="Email" 
+            class="w-full p-3 bg-slate-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--accent)] transition-all"
+            required 
+          />
+        </div>
+        <input 
+          type="text" 
+          id="subject"
+          name="subject"
+          placeholder="Subject" 
+          class="w-full p-3 bg-slate-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--accent)] transition-all"
+          required 
+        />
+        <textarea 
+          id="message"
+          name="message"
+          rows="5" 
+          placeholder="Message" 
+          class="w-full p-3 bg-slate-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--accent)] transition-all resize-none"
+          required
+        ></textarea>
+        <div id="formStatus" class="text-center hidden">
+          <p class="text-green-500 success-message hidden">Message sent successfully!</p>
+          <p class="text-red-500 error-message hidden">Error sending message. Please try again.</p>
+        </div>
+        <div class="text-center">
+          <button 
+            type="submit" 
+            id="submitButton"
+            class="px-8 py-3 bg-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/90 transition-all transform hover:scale-105 inline-flex items-center"
+          >
+            <i class="fas fa-paper-plane mr-2"></i>
+            <span>Send Message</span>
+          </button>
+        </div>
+    </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 py-8">
+    <div class="container mx-auto px-4">
+      <div class="text-center">
+        <p class="text-slate-400 text-sm">
+          <span class="text-[var(--accent)]">©</span> 
+          <script>document.write(new Date().getFullYear())</script> 
+          <span class="font-medium text-slate-300">Bassam Khafagy</span>
+          <span class="mx-2">•</span>
+          <span class="text-slate-400">All rights reserved</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/main.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bassam Nasser - Android Developer Portfolio showcasing expertise in Kotlin, Java, and modern Android development" />
+  <title>Bassam Nasser – Android Developer Portfolio</title>
+  
+  <!-- External Resources -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <style>
+    /* CSS Variables for consistent theming */
+    :root {
+      --accent: #0ea5e9;
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --transition-default: all 0.3s ease;
+    }
+
+    /* Base Styles */
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+    }
+
+    /* Animation Definitions */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.7);
+      }
+      70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 10px rgba(14, 165, 233, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(14, 165, 233, 0);
+      }
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-6px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    @keyframes shine {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    @keyframes downloadBounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-4px);
+      }
+      60% {
+        transform: translateY(-2px);
+      }
+    }
+
+    .btn-hire-me {
+      animation: pulse 2s infinite;
+      transition: all 0.3s ease;
+    }
+
+    .btn-hire-me:hover {
+      animation: none;
+      transform: scale(1.1);
+      background-color: var(--accent);
+    }
+
+    .btn-download {
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      background: linear-gradient(
+        120deg, 
+        rgba(14, 165, 233, 0.1) 0%, 
+        rgba(14, 165, 233, 0.2) 50%, 
+        rgba(14, 165, 233, 0.1) 100%
+      );
+      background-size: 200% auto;
+      animation: shine 3s linear infinite;
+    }
+
+    .btn-download:hover {
+      background-size: 200% auto;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(14, 165, 233, 0.3);
+    }
+
+    .btn-download .download-icon {
+      display: inline-flex;
+      align-items: center;
+      transition: all 0.3s ease;
+    }
+
+    .btn-download:hover .download-icon {
+      animation: downloadBounce 1.5s ease infinite;
+    }
+
+    .btn-download::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(14, 165, 233, 0.1) 0%, transparent 70%);
+      transform: scale(0);
+      opacity: 0;
+      transition: transform 0.6s, opacity 0.6s;
+    }
+
+    .btn-download:hover::after {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    /* Section Hover Effects */
+    .section-hover {
+      transition: var(--transition-default);
+    }
+
+    .section-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(14, 165, 233, 0.1);
+    }
+
+    /* Section Title Styling */
+    .section-title {
+      position: relative;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 3rem;
+      color: var(--text-primary);
+      text-align: center;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -10px;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 3px;
+      background: var(--accent);
+    }
+
+    /* Skills Section Styling */
+    .skill-bar {
+      height: 10px;
+      background: #e9ecef;
+      border-radius: 100px;
+      position: relative;
+      margin-bottom: 2rem;
+    }
+
+    .skill-progress {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      border-radius: 100px;
+      background: var(--accent);
+      width: 0;
+      transition: width 1.5s cubic-bezier(0.1, 0.45, 0.1, 1);
+    }
+
+    .skill-title {
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Timeline and Contact Styling */
+    .timeline-item {
+      position: relative;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      transition: var(--transition-default);
+    }
+
+    .timeline-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 0.5rem;
+    }
+
+    .contact-info-item i {
+      font-size: 1.5rem;
+      color: var(--accent);
+      margin-right: 1rem;
+    }
+
+    /* Form Input Styling */
+    .form-input {
+      @apply w-full p-3 bg-slate-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--accent)] transition-all;
+    }
+
+    /* Button Styling */
+    .btn-primary {
+      @apply px-8 py-3 bg-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/90 transition-all;
+    }
+
+    .btn-secondary {
+      @apply px-8 py-3 border-2 border-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/10 transition-all;
+    }
+
+    /* Social Icons Styling */
+    .social-icon {
+      @apply w-10 h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group;
+    }
+
+    .social-icon i {
+      @apply text-[var(--accent)] text-xl group-hover:text-[var(--accent)];
+    }
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-200 leading-relaxed">
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-b from-slate-950 to-slate-900 px-4 py-16 sm:py-0">
+    <div class="text-center max-w-4xl mx-auto">
+      <div class="relative mx-auto mb-8 h-32 w-32 sm:h-48 sm:w-48">
+        <img src="avatar.jpg" alt="Bassam Nasser" class="w-full h-full rounded-full border-4 border-[var(--accent)] object-cover shadow-xl animate-borderPulse" 
+             onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Bassam+Nasser&background=0ea5e9&color=fff&size=200'"/>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-bold mb-4 animate-fadeInUp">Hello, I'm <span class="text-[var(--accent)]">Bassam Nasser</span></h1>
+      <h2 class="text-xl sm:text-2xl mb-6 text-slate-400 animate-fadeInUp">I'm an Android Developer</h2>
+      <p class="text-base sm:text-lg text-slate-400 mb-8 max-w-2xl mx-auto animate-fadeInUp px-4">
+        Passionate Android Developer with 3+ years of experience in creating high-quality applications, focusing on clean architecture and modern UI development with Jetpack Compose.
+      </p>
+      <div class="flex justify-center space-x-4 mb-8">
+        <a href="https://www.linkedin.com/in/bassam-khafagy-77296a1bb/" target="_blank" class="text-slate-400 hover:text-[var(--accent)] transition-colors w-6 text-center">
+          <i class="fab fa-linkedin text-2xl"></i>
+        </a>
+        <a href="https://github.com/bassam-khafagy127" target="_blank" class="text-slate-400 hover:text-[var(--accent)] transition-colors w-6 text-center">
+          <i class="fab fa-github text-2xl"></i>
+        </a>
+        <a href="https://bento.me/bassam-khafagy" target="_blank" class="text-slate-400 hover:text-[var(--accent)] transition-colors w-6 text-center">
+          <i class="fas fa-link text-2xl"></i>
+        </a>
+      </div>
+      <div class="flex flex-col sm:flex-row justify-center gap-4 px-4">
+        <a href="#contact" class="btn-hire-me px-6 sm:px-8 py-3 bg-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/90 transition flex items-center justify-center">
+          <i class="fas fa-handshake mr-2"></i>
+          Hire Me
+        </a>
+        <a href="Bassam Nasser CV.pdf" download class="btn-download px-6 sm:px-8 py-3 border-2 border-[var(--accent)] text-white rounded-full font-medium transition flex items-center justify-center">
+          <span class="download-icon">
+            <i class="fas fa-download mr-2"></i>
+          </span>
+          Download CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 sm:py-24 px-4 bg-slate-900">
+    <div class="container mx-auto max-w-6xl">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">Skills</h2>
+      
+      <!-- Programming Languages & Markup -->
+      <div class="mb-12 sm:mb-16 section-hover bg-slate-800/30 rounded-2xl p-4 sm:p-8">
+        <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">Programming Languages & Markup</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>Java (8 – 21)</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>Kotlin (Coroutines & Flow)</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="95%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>XML/Android-Layout</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>Dart & C#</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Architectural Paradigms -->
+      <div class="mb-16 section-hover bg-slate-800/30 rounded-2xl p-8">
+        <h3 class="text-2xl font-semibold mb-6 text-[var(--accent)]">Architectural Paradigms</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>Clean Architecture & SOLID</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>MVVM & MVI</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>Dependency Injection</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>MVP Pattern</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Android Libraries & Frameworks -->
+      <div class="mb-12 sm:mb-16 section-hover bg-slate-800/30 rounded-2xl p-4 sm:p-8">
+        <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">Android Libraries & Frameworks</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>Jetpack Compose</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>Android Jetpack Suite</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>Hilt & Koin (DI)</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>Room & DataStore</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>Retrofit & REST APIs</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>WorkManager & Background Tasks</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DevOps & Tooling -->
+      <div class="mb-12 sm:mb-16 section-hover bg-slate-800/30 rounded-2xl p-4 sm:p-8">
+        <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">DevOps & Tooling</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>Git & Version Control</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>CI/CD & GitHub Actions</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>Firebase Suite</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="skill-title">
+                <span>Agile & Project Management</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Deployment & Store Operations -->
+      <div class="mb-12 sm:mb-16 section-hover bg-slate-800/30 rounded-2xl p-4 sm:p-8">
+        <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">Deployment & Store Operations</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>Google Play Console</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-6">
+            <div>
+              <div class="skill-title">
+                <span>Release Management & Monitoring</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 sm:py-24 px-4">
+    <div class="container mx-auto max-w-6xl">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">Projects</h2>
+      
+      <!-- Featured Project -->
+      <div class="mb-12 section-hover bg-slate-800/30 rounded-2xl p-6 sm:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-8">
+          <div class="order-1">
+            <div class="flex items-center gap-4 mb-6">
+              <img src="https://play-lh.googleusercontent.com/Rl6FnftNbK_uwPbc_TDJVyIHFdbtc4KUKFmIjkRObS8LKS8ze-s9qO_Bmbv901ccx78Z=s48-rw" 
+                   alt="TaskedIn Icon" 
+                   class="w-12 h-12 rounded-xl shadow-lg"
+                   onerror="this.style.display='none'"/>
+              <h3 class="text-2xl font-semibold text-[var(--accent)]">TaskedIn</h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Kotlin</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Jetpack Compose</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">MVVM</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Clean Architecture</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Arabic Support</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">HR Analytics</span>
+            </div>
+            <p class="text-slate-300 mb-6">
+              A unified digital workspace revolutionizing team productivity in the Middle East. TaskedIn centralizes:
+            </p>
+            <ul class="list-disc list-inside text-slate-300 mb-6 space-y-2">
+              <li>Task management and team collaboration</li>
+              <li>Chat, meetings, and file-sharing capabilities</li>
+              <li>HR and analytics tools</li>
+              <li>Arabic language support and localization</li>
+              <li>Customizable workflows for teams of all sizes</li>
+            </ul>
+            <p class="text-slate-300 mb-6">
+              Recognized for innovation with the UAE Award, TaskedIn streamlines business processes by replacing fragmented platforms like email and WhatsApp with a single, intuitive solution.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="https://play.google.com/store/search?q=taskedin&c=apps&hl=en" 
+                 target="_blank" 
+                 class="inline-flex items-center px-4 py-2 bg-[var(--accent)] text-white rounded-lg hover:bg-[var(--accent)]/90 transition">
+                <i class="fab fa-google-play mr-2"></i>
+                View on Play Store
+              </a>
+              <a href="https://taskedin.net/" 
+                 target="_blank" 
+                 class="inline-flex items-center px-4 py-2 border border-[var(--accent)] text-[var(--accent)] rounded-lg hover:bg-[var(--accent)]/10 transition">
+                <i class="fas fa-info-circle mr-2"></i>
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <div class="mb-12 section-hover bg-slate-800/30 rounded-2xl p-6 sm:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-8">
+          <div class="order-1">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 rounded-xl shadow-lg bg-white flex items-center justify-center p-1">
+                <svg width="44" height="44" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+                  <g transform="translate(18, 32) scale(1)">
+                    <path d="M1.102,28.095L5.612,28.095a3.972,3.972 0,0 1,2.766 0.9,3.236 3.236,0 0,1 1,2.55 3.624,3.624 0,0 1,-0.488 1.922,2.953 2.953,0 0,1 -1.378,1.172L9.296,38.145L6.68,38.145L5.087,34.995L3.643,34.995L3.643,38.145L1.102,38.145ZM5.171,32.858a2.014,2.014 0,0 0,1.172 -0.291A1.165,1.165 0,0 0,6.765 31.545a1.153,1.153 0,0 0,-0.412 -1.022A2.064,2.064 0,0 0,5.171 30.245L3.643,30.245v2.616ZM5.171,32.858" fill="#117e93"/>
+                    <path d="M14.118,28.095L16.612,28.095L20.624,38.145h-2.6L17.221,36.073L13.509,36.073L12.702,38.145L10.087,38.145ZM16.584,34.123L15.365,30.745 14.127,34.123ZM16.584,34.123" fill="#f65900" fill-opacity="0.85"/>
+                    <path d="M21.626,28.095L24.167,28.095v3.881L28.104,31.976L28.104,28.095h2.55L30.654,38.145L28.104,38.145v-4.05L24.167,34.095L24.167,38.145L21.626,38.145ZM21.626,28.095" fill="#117e93"/>
+                    <path d="M35.682,28.095L38.176,28.095L42.188,38.145h-2.6L38.785,36.073L35.073,36.073L34.266,38.145L31.651,38.145ZM38.148,34.123L36.929,30.745 35.691,34.123ZM38.148,34.123" fill="#117e93"/>
+                    <path d="M45.516,30.245L42.684,30.245L42.684,28.095L50.906,28.095L50.906,30.245L48.066,30.245v7.9L45.516,38.145ZM45.516,30.245" fill="#117e93"/>
+                    <path d="M56.195,38.361A4.511,4.511 0,0 1,52.773 37.151,4.484 4.484,0 0,1 51.62,33.936L51.62,28.095L54.167,28.095v5.869a2.045,2.045 0,0 0,0.534 1.528,2.07 2.07,0 0,0 1.491,0.516A2.012,2.012 0,0 0,57.667 35.492a2.045,2.045 0,0 0,0.534 -1.528L58.201,28.095h2.55v5.841A4.49,4.49 0,0 1,59.608 37.151,4.484 4.484,0 0,1 56.195,38.361ZM56.195,38.361" fill="#117e93"/>
+                    <path d="M61.967,28.095L64.508,28.095v4.172L67.977,28.095h3.019L66.927,32.989 71.267,38.145L68.248,38.145L64.508,33.701L64.508,38.145L61.967,38.145ZM61.967,28.095" fill="#117e93"/>
+                    <path d="M3.45,10.706v-0.647h0.525v-1.95L5.588,8.109q0.647,0 0.647,0.731v0.666h-0.75L5.485,8.984a0.208,0.208 0,0 0,-0.075 -0.188,0.78 0.78,0 0,0 -0.338,-0.047c-0.1,0 -0.225,0.007 -0.375,0.019v1.294L6.234,10.062v0.647ZM11,17.391L0,17.391v-7.359a2.859,2.859 0,0 1,0.759 -1.856,2.191 2.191,0 0,1 1.688,-0.909L2.447,15.184L7.388,15.184L7.388,0h2.438L9.826,15.184L11,15.184ZM11,17.391" fill="#117e93"/>
+                    <path d="M20.25,17.391L9.487,17.391v-2.2L20.25,15.191ZM20.25,17.391" fill="#117e93"/>
+                    <path d="M26.659,15.188v2.2L18.759,17.388v-2.2L23.1,15.188v-7.838L25.537,7.35v7.838ZM21.975,5.572L19.265,5.572v-2.25L21.975,3.322ZM25.775,5.572L23.059,5.572v-2.25L25.772,3.322ZM25.775,5.572" fill="#117e93"/>
+                    <path d="M35.921,17.391L25.158,17.391v-2.2L35.921,15.191ZM35.921,17.391" fill="#117e93"/>
+                    <path d="M45.193,17.391L34.43,17.391v-2.2L45.193,15.191ZM45.193,17.391" fill="#117e93"/>
+                    <path d="M54.465,17.391L43.702,17.391v-2.2L54.465,15.191ZM54.465,17.391" fill="#117e93"/>
+                    <path d="M52.973,17.391v-2.2L60.351,15.191a1.38,1.38 0,0 1,-0.619 -1.359l0.019,-2.55a1.7,1.7 0,0 0,-1.922 -1.941L57.004,9.341v1.238L54.689,10.579v-3.272L58.842,7.307q3.326,0 3.319,3.15l-0.019,3.375c0,0.914 0.417,1.366 1.256,1.359v2.2ZM52.973,17.391" fill="#117e93"/>
+                    <path d="M64.287,17.391L64.287,0.029L66.725,0.029v17.363ZM64.287,17.391" fill="#f65900" fill-opacity="0.85"/>
+                    <path d="M70.724,17.334a3.377,3.377 0,0 1,-0.5 1.8A2.359,2.359 0,0 1,68.792 20.259,5.742 5.742,0 0,1 67.424,20.384L66.364,20.384L66.364,18.59a2.585,2.585 0,0 0,1.566 -0.328,1.24 1.24,0 0,0 0.384,-0.994v-9.919L70.724,7.349ZM70.724,17.334" fill="#117e93"/>
+                    <path d="M0.206,25.824L71.312,25.824" stroke="#f65900" stroke-opacity="0.85" stroke-width="2.997" fill="none"/>
+                    <path d="M5.156,18h59v3h-59z" fill="#117e93"/>
+                  </g>
+                </svg>
+              </div>
+              <h3 class="text-2xl font-semibold text-[var(--accent)]">Rahtuk</h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Kotlin</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">MVVM</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Clean Architecture</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Excel Support</span>
+            </div>
+            <p class="text-slate-300 mb-6">
+              A comprehensive transportation and delivery application that connects drivers with customers, featuring:
+            </p>
+            <ul class="list-disc list-inside text-slate-300 mb-6 space-y-2">
+              <li>Real-time location tracking and route optimization</li>
+              <li>Secure payment gateway integration</li>
+              <li>Driver-customer chat system</li>
+              <li>Rating and review system</li>
+              <li>Multi-language support (Arabic/English)</li>
+              <li>Push notifications for order updates</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+
+      <div class="mb-12 section-hover bg-slate-800/30 rounded-2xl p-6 sm:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-8">
+          <div class="order-1">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 rounded-xl shadow-lg bg-white flex items-center justify-center">
+                <img src="logo_sna.png" 
+                     alt="Snake El Maarouf Icon" 
+                     class="w-8 h-8 object-contain"
+                     onerror="this.style.display='none'"/>
+              </div>
+              <h3 class="text-2xl font-semibold text-[var(--accent)]">Snake El Maarouf</h3>
+            </div>
+            <div class="flex flex-wrap gap-3 mb-4">
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Kotlin</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">MVVM</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Clean Architecture</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Firebase</span>
+              <span class="px-3 py-1 bg-slate-700/50 rounded-full text-sm">Excel Support</span>
+            </div>
+            <p class="text-slate-300 mb-6">
+              A specialized transportation service application for El Maarouf Hospital, featuring:
+            </p>
+            <ul class="list-disc list-inside text-slate-300 mb-6 space-y-2">
+              <li>Real-time ambulance tracking and dispatch system</li>
+              <li>Emergency response coordination</li>
+              <li>Hospital staff and driver communication platform</li>
+              <li>Patient transport management</li>
+              <li>Route optimization for emergency vehicles</li>
+              <li>Incident reporting and analytics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">About Me</h2>
+        <!-- What I Deliver -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
+          <div class="bg-slate-800/50 rounded-2xl p-4 sm:p-8 section-hover">
+            <h3 class="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-[var(--accent)]">What I Deliver</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start">
+                <span class="text-green-400 mr-3 mt-1">✅</span>
+                <div>
+                  <strong class="text-white block mb-1">Full-Cycle Development:</strong>
+                  <p class="text-sm sm:text-base text-slate-300">Designed, coded, and shipped multiple Android apps from concept to Play Store, including TaskedIn.</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-400 mr-3 mt-1">✅</span>
+                <div>
+                  <strong class="text-white block mb-1">Technical Mastery:</strong>
+                  <p class="text-sm sm:text-base text-slate-300">Proficient in MVVM, MVI, Clean Architecture, Coroutines, and Jetpack libraries. Passionate about writing maintainable code and squashing bugs before they reach users.</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-400 mr-3 mt-1">✅</span>
+                <div>
+                  <strong class="text-white block mb-1">Collaboration & Impact:</strong>
+                  <p class="text-sm sm:text-base text-slate-300">Work closely with cross-functional teams to align technical execution with business goals. Pride myself on translating UX wireframes into pixel-perfect, responsive interfaces.</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-400 mr-3 mt-1">✅</span>
+                <div>
+                  <strong class="text-white block mb-1">Continuous Learner:</strong>
+                  <p class="text-sm sm:text-base text-slate-300">Always exploring cutting-edge tools like Jetpack Compose and KMP.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Beyond the Screen -->
+          <div class="bg-slate-800/50 rounded-2xl p-4 sm:p-8 section-hover">
+            <h3 class="text-xl sm:text-2xl font-semibold mb-6 text-[var(--accent)]">Beyond the Screen</h3>
+            <p class="text-base sm:text-lg text-slate-300 leading-relaxed mb-6">
+              When I'm not debugging or refining TaskedIn, you'll find me:
+            </p>
+            <ul class="space-y-4">
+              <li class="flex items-center">
+                <span class="text-[var(--accent)] mr-3">🎬</span>
+                <p class="text-sm sm:text-base text-slate-300">Binge-watching anime series (currently obsessed with Demon Slayer ⚔️ & Solo Leveling)</p>
+              </li>
+              <li class="flex items-center">
+                <span class="text-[var(--accent)] mr-3">⚽</span>
+                <p class="text-sm sm:text-base text-slate-300">Playing football with friends</p>
+              </li>
+              <li class="flex items-center">
+                <span class="text-[var(--accent)] mr-3">🏃‍♂️</span>
+                <p class="text-sm sm:text-base text-slate-300">Training for my next 10K run</p>
+              </li>
+            </ul>
+            <p class="text-slate-300 mt-6">
+              I believe a balanced life fuels creativity—whether it's analyzing anime's storytelling techniques, strategizing like a midfielder, or pushing my limits on the track!
+            </p>
+          </div>
+        </div>
+
+        <!-- Personal Info -->
+        <div class="bg-slate-800/50 rounded-2xl p-4 sm:p-8 section-hover">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-12">
+            <!-- Personal Details -->
+            <div class="bg-slate-900/50 rounded-xl p-4 sm:p-6">
+              <h3 class="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 text-[var(--accent)] flex items-center">
+                <i class="fas fa-user-circle mr-3"></i>
+                Personal Details
+              </h3>
+              <ul class="space-y-3 sm:space-y-4">
+                <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
+                  <i class="fas fa-calendar-alt text-[var(--accent)] w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
+                  <div class="ml-4">
+                    <p class="text-xs sm:text-sm text-slate-400">Birthday</p>
+                    <p class="text-sm sm:text-base font-medium">12th July 2000</p>
+                  </div>
+                </li>
+                <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
+                  <i class="fas fa-map-marker-alt text-[var(--accent)] w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
+                  <div class="ml-4">
+                    <p class="text-xs sm:text-sm text-slate-400">Location</p>
+                    <p class="text-sm sm:text-base font-medium">Giza, Egypt</p>
+                  </div>
+                </li>
+                <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
+                <i class="fas fa-graduation-cap text-[var(--accent)] min-w-8 w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
+                  <div class="ml-4">
+                    <p class="text-xs sm:text-sm text-slate-400">Degree</p>
+                    <p class="text-sm sm:text-base font-medium">Bachelor of Management Information Systems (MIS)</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Contact & Social -->
+            <div class="bg-slate-900/50 rounded-xl p-4 sm:p-6">
+              <h3 class="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 text-[var(--accent)] flex items-center">
+                <i class="fas fa-address-card mr-3"></i>
+                Contact & Social
+              </h3>
+              <ul class="space-y-3 sm:space-y-4">
+                <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
+                <i class="fas fa-envelope text-[var(--accent)] min-w-8 w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
+                  <div class="ml-4">
+                    <p class="text-xs sm:text-sm text-slate-400">Email</p>
+                    <p class="text-sm sm:text-base font-medium">bassamkhafgy127@gmail.com</p>
+                  </div>
+                </li>
+                <li class="flex items-center p-3 bg-slate-800/50 rounded-lg hover:bg-slate-800 transition-all">
+                  <i class="fas fa-phone text-[var(--accent)] w-8 h-8 flex items-center justify-center bg-slate-700/50 rounded-full"></i>
+                  <div class="ml-4">
+                    <p class="text-xs sm:text-sm text-slate-400">Phone</p>
+                    <p class="text-sm sm:text-base font-medium">+20 109‑048‑2476</p>
+                  </div>
+                </li>
+                <li class="p-3 bg-slate-800/50 rounded-lg">
+                  <p class="text-xs sm:text-sm text-slate-400 mb-2">Social Profiles</p>
+                  <div class="flex flex-wrap gap-2 sm:gap-3">
+                    <a href="https://www.linkedin.com/in/bassam-khafagy-77296a1bb/" 
+                       target="_blank" 
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-linkedin text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
+                    </a>
+                    <a href="https://github.com/bassam-khafagy127" 
+                       target="_blank" 
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-github text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
+                    </a>
+                    <a href="https://bento.me/bassam-khafagy" 
+                       target="_blank" 
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fas fa-link text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
+                    </a>
+                    <a href="https://x.com/bassam_nasser12" 
+                       target="_blank" 
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-x text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
+                    </a>
+                    <a href="https://www.instagram.com/bassam_khafqgy1/" 
+                       target="_blank" 
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-instagram text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
+                    </a>
+                    <a href="https://t.me/Bassam710khafgy" 
+                       target="_blank" 
+                       class="w-8 h-8 sm:w-10 sm:h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group">
+                      <i class="fab fa-telegram text-[var(--accent)] text-lg sm:text-xl group-hover:text-[var(--accent)]"></i>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="bg-slate-800/50 rounded-2xl p-4 sm:p-8 mt-8 sm:mt-12 section-hover">
+          <h3 class="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-[var(--accent)] flex items-center gap-3">
+            <span class="flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-slate-900 border-2 border-[var(--accent)]">
+              <i class="fas fa-graduation-cap text-[var(--accent)] text-lg sm:text-xl"></i>
+            </span>
+            Education
+          </h3>
+          <div class="bg-slate-900/50 rounded-lg p-4 sm:p-6">
+            <h4 class="text-lg sm:text-xl font-semibold text-white mb-2">Bachelor of Management Information Systems (MIS)</h4>
+            <p class="text-[var(--accent)] mb-2">Delta Academy, Mansoura | Egypt</p>
+            <p class="text-sm sm:text-base text-slate-400">Class of 2022</p>
+            <div class="mt-4">
+              <p class="text-sm sm:text-base text-slate-300">Focused on bridging business and technology through comprehensive study of information systems, database management, and software development with emphasis on business applications.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="text-center mt-8 sm:mt-12">
+          <h3 class="text-xl sm:text-2xl font-semibold mb-4 text-[var(--accent)]">Let's Build Something Amazing!</h3>
+          <p class="text-sm sm:text-base text-slate-300 max-w-3xl mx-auto mb-6 sm:mb-8 px-4">
+            Open to Android developer roles where I can apply my technical depth and creativity to impactful projects. Let's connect to discuss how I can help your team innovate!
+          </p>
+          <a href="#contact" class="inline-flex items-center px-6 sm:px-8 py-3 bg-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/90 transition">
+            <i class="fas fa-paper-plane mr-2"></i>
+            Get In Touch
+          </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 sm:py-24 bg-slate-950 px-4">
+    <div class="container mx-auto max-w-6xl">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+        <div class="p-4 sm:p-6 bg-slate-900 rounded-xl section-hover">
+          <div class="flex items-center mb-4">
+            <i class="fas fa-mobile-alt text-2xl sm:text-3xl text-[var(--accent)]"></i>
+            <h3 class="text-lg sm:text-xl font-semibold ml-4">Android App Development</h3>
+          </div>
+          <p class="text-sm sm:text-base text-slate-400">
+            Specialized in creating modern, efficient, and user-friendly Android applications using the latest technologies and best practices. From concept to deployment, I ensure your app meets the highest standards of quality and performance.
+          </p>
+        </div>
+        <div class="p-4 sm:p-6 bg-slate-900 rounded-xl section-hover">
+          <div class="flex items-center mb-4">
+            <i class="fas fa-laptop-code text-2xl sm:text-3xl text-[var(--accent)]"></i>
+            <h3 class="text-lg sm:text-xl font-semibold ml-4">CMM (Compose Multiplatform)</h3>
+          </div>
+          <p class="text-sm sm:text-base text-slate-400">
+            Expertise in developing cross-platform applications using Compose Multiplatform, enabling shared UI code across Android, iOS, and Desktop. Leveraging the power of Kotlin and modern declarative UI patterns to create consistent, maintainable, and native-quality applications with a single codebase.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 sm:py-24 px-4">
+    <div class="container mx-auto max-w-2xl">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">Get in Touch</h2>
+      <div class="text-center mb-8 sm:mb-12">
+        <p class="text-base sm:text-lg text-slate-400">
+          Whether you have a project in mind or just want to chat, I'm always open to discussing new opportunities.
+        </p>
+      </div>
+      <h3 class="text-xl sm:text-2xl font-semibold mb-8 sm:mb-12 text-center">Contact Me</h3>
+      
+      <form id="contactForm" class="space-y-6 bg-slate-800/50 rounded-2xl p-4 sm:p-8 section-hover">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
           <input 
             type="text" 
             id="name"
