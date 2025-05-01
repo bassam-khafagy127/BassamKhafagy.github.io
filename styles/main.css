@@ -1,0 +1,137 @@
+/* Theme Variables */
+:root {
+  --accent: #0ea5e9;
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --transition-default: all 0.3s ease;
+}
+
+/* Base Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Animation Definitions */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Section Hover Effects */
+.section-hover {
+  transition: var(--transition-default);
+}
+
+.section-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(14, 165, 233, 0.1);
+}
+
+/* Section Title Styling */
+.section-title {
+  position: relative;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background: var(--accent);
+}
+
+/* Skills Section Styling */
+.skill-bar {
+  height: 10px;
+  background: #e9ecef;
+  border-radius: 100px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.skill-progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 100px;
+  background: var(--accent);
+  width: 0;
+  transition: width 1.5s cubic-bezier(0.1, 0.45, 0.1, 1);
+}
+
+.skill-title {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Timeline and Contact Styling */
+.timeline-item {
+  position: relative;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  transition: var(--transition-default);
+}
+
+.timeline-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+}
+
+.contact-info-item i {
+  font-size: 1.5rem;
+  color: var(--accent);
+  margin-right: 1rem;
+}
+
+/* Utility Classes */
+.form-input {
+  @apply w-full p-3 bg-slate-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--accent)] transition-all;
+}
+
+.btn-primary {
+  @apply px-8 py-3 bg-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/90 transition-all;
+}
+
+.btn-secondary {
+  @apply px-8 py-3 border-2 border-[var(--accent)] text-white rounded-full font-medium hover:bg-[var(--accent)]/10 transition-all;
+}
+
+.social-icon {
+  @apply w-10 h-10 bg-slate-800/50 rounded-full flex items-center justify-center hover:bg-[var(--accent)]/10 transition-all group;
+}
+
+.social-icon i {
+  @apply text-[var(--accent)] text-xl group-hover:text-[var(--accent)];
+} 
